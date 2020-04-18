@@ -1,0 +1,19 @@
+n,r=input("Enter 2 numbers:").split()
+n=int(n)
+r=int(r)
+i=1
+fn=1
+while i<=n:
+    fn*=i
+    i+=1
+i=1
+fr=1
+while i<=r:
+    fr*=i
+    i+=1
+i=1
+fd=1
+while i<=(n-r):
+    fd*=i
+    i+=1
+print("Te combination is:",fn/(fd*fr))
